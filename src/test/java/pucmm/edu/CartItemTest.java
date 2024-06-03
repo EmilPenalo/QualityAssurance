@@ -7,7 +7,7 @@ import pucmm.edu.exceptions.InvalidProductQuantity;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-// Para el uso de @BeforeEach necesitamos utilizarán JUnit 4, por lo cual no se utiliza TestCase y se opta por usar Junit Jupiter API
+// Para el uso de @BeforeEach necesitamos utilizar JUnit 4, por lo cual no se utiliza TestCase (JUnit 3) y se opta por usar Junit Jupiter API
 public class CartItemTest {
     private Product product;
 
