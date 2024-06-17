@@ -1,0 +1,7 @@
+.login-view {
+    background: var(--primary-color-100);
+}
+
+#vaadinLoginFormWrapper {
+    border-radius: 12px;
+}

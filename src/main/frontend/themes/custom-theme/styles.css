@@ -1,0 +1,17 @@
+@import "login.css";
+
+html {
+    --primary-color-100: #ebf1f6;
+    --lumo-primary-color: #86a4bd;
+    --vaadin-button-text-color: #86a4bd;
+}
+
+vaadin-app-layout::part(drawer) {
+    background-color: var(--primary-color-100);
+}
+
+#success-text {
+    color: forestgreen;
+    font-weight: bold;
+}
+
